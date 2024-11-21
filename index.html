@@ -4,10 +4,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tailwind Learn</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
+    <section class="bg-[url('/images/bg-main.png')] bg-[#395C4D] bg-no-repeat bg-cover h-screen px-[135px] relative">
+        <div class="py-[40px]">
+            <header class="flex justify-between items-center h-[100px]">
+                <img src="./images/logo.svg" alt="">
+                <nav>
+                    <ul class="flex gap-4">
+                        <li>Features</li>
+                        <li>Pricing</li>
+                        <li>About</li>
+                        <li>Contact Us</li>
+                    </ul>
+                </nav>
+                <button class="border border-yellow-200 p-3 bg-opacity-20 rounded-xl hover:bg--200">Free
+                    Trial</button>
+            </header>
+        </div>
+        <img class="absolute bottom-0 left-0" src="./images/blocks.png" alt="">
+        <img class="absolute bottom-0 right-0" src="./images/blocks2.png" alt="">
+    </section>
+
 
 </body>
 
